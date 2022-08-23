@@ -2,6 +2,7 @@ function taxi(){
     let guardar1=document.getElementById("txt1").value;
     let guardar2=document.getElementById("txt2").value;
     let guardar3=document.getElementById("txt3").value;
+    
     if(guardar1==""){
     alert("Cuadro de texto 1 vacio - llenar por favor")
     }
