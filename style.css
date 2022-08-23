@@ -90,3 +90,14 @@ button{
     font-family: 'Courier New', Courier, monospace;
     border-radius:10px;
 }
+
+.creadores{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+
+}
+.img2{
+    width: 250px;
+}
