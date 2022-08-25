@@ -62,7 +62,7 @@ footer {
     text-align: center;
     padding: 20px ;
     color: rgba(0, 0, 0, 0.808);
-    font-family: 'Courier New', Courier, monospace;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .item1 {
@@ -92,17 +92,10 @@ button{
     background-color:rgba(30, 116, 95, 0.966);
     color: #ffffff;
     border: none;
-    font-family: 'Courier New', Courier, monospace;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     border-radius:10px;
 }
 
-.creadores{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    text-align: center;
-
-}
 .img2{
     width: 250px;
 }
@@ -184,7 +177,7 @@ body {
   color: #FFFFFF;
   cursor: pointer;
   display: inline-block;
-  font-family:'Courier New', Courier, monospace;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-size: 14px;
   font-weight: 500;
   height: 40px;
