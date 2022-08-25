@@ -38,8 +38,11 @@
                 <br>
                 Lugar de destino:<input id="txt3" type="text"> 
                 <br>
-                <img id="imagen" src="/Imagenes/Cotopaxci.jpg">
+                <p id="txtTaxi"></p>
+                <img class="img2" id="imagen" src="" width="50px">
+                <br>
                 <button onclick="taxi()">Contratar servicio</button>
+                <button onclick="limpiar()">Cancelar servicio</button>
 
 
             </div>
@@ -51,10 +54,35 @@
 
             <div class="item3">
                 <h3>Puerta a puerta</h3>
+                Ingrese su nombre:<input id="txt4" type="text"> 
+                <br>
+                Dirección:<input  id="txt5" type="text"> 
+                <br>
+                Lugar de destino:<input id="txt6" type="text"> 
+                <br>
+                <p id="txtPuerta"></p>
+                <img class="img2" id="imagen2" src="" width="50px">
+                <br>
+                <button onclick="puerta()">Contratar servicio</button>
+                <button onclick="limpiar2()">Cancelar servicio</button>
+
             </div>
             <div class="item4">
                 <h3>Ofertas vacionales</h3>
+          
+                <input type="radio" name="1" id="oferta1">Puerta a Puerta Mindo
+                <br>
+                <input type="radio" name="1" id="oferta2">Puerta a Puerta Atacames
+                <br>
+                <input type="radio" name="1" id="oferta3">Puerta a Puerta Sur de Quito
+                <br>
+                <input type="radio" name="1" id="oferta4">Puerta a Puerta Manabi
+                <br>
+                <p id="texto1"></p>
+                <img class="img2" id="imagen3" src="" width="50px">
 
+                <button onclick="reservar();">Reservar</button>
+           
             </div>
         </div>
     </main>
