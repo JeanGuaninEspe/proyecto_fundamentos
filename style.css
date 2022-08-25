@@ -165,45 +165,4 @@ body {
     
   }
 
-  .imginicio{
-
-    border: 5px solid rgba(30, 116, 95, 0.865);
-    border-radius: 10px;
-    width: 1150px;
-    height: 100%;
-    margin: 10px;
-
-    
-  }
-  .derecha{
-margin-top: 0px;
-    display: grid;
-    border: 3px solid green;
-    background-color: aquamarine;
-    text-align: center;
-
-  }
-
-  .rightcolumn{
-    margin-top: 155px;
-    display: grid;
-    border: 3px solid green;
-    height: 1110px;
-    padding-top: 0px;
-  }
-
-  .inicio2{
-    font-size: 18px;
-    text-align: center;
-  }
-  .imginicio2{
-
-    border: 5px solid rgba(30, 116, 95, 0.865);
-    border-radius: 10px;
-
   
-
-    
-
-    
-  }
