@@ -66,15 +66,31 @@ function limpiar2(){
 }
 function reservar(){
     if(document.getElementById("oferta1").checked){
-document.getElementById("texto1").innerHTML="Viaje a Mindo reservado"
+    document.getElementById("texto1").innerHTML="Viaje a Mindo reservado";
+    document.getElementById("imagen3").src="Imagenes/mindo.jpg";
     }
     if(document.getElementById("oferta2").checked){
+        document.getElementById("texto1").innerHTML="Viaje a Atacames reservado";
+        document.getElementById("imagen3").src="Imagenes/atacames.jpeg";
 
     }
     if(document.getElementById("oferta3").checked){
+        document.getElementById("texto1").innerHTML="Viaje a Sur de Quito reservado";
+        document.getElementById("imagen3").src="Imagenes/quito.jpg";
+
 
     }
     if(document.getElementById("oferta4").checked){
+        document.getElementById("texto1").innerHTML="Viaje a Manabi reservado";
+        document.getElementById("imagen3").src="Imagenes/manabi.jpg";
+
 
     }
+}
+function cancelar(){
+    document.getElementById("texto1").innerHTML="";
+    document.getElementById("texto2").innerHTML="";
+    document.getElementById("texto3").innerHTML="";
+    document.getElementById("texto4").innerHTML="";
+    document.getElementById("imagen3").src="";
 }
