@@ -16,8 +16,11 @@ function taxi(){
 
     }else{
         alert(guardar1+ " Ubicacion " +guardar2+ " con destino a "+guardar3+ " -Servicio Contratado-");
+        document.getElementById("imagen").src="https://carros.mitula.ec/carros/compa%C3%B1ia";
+
 
     }
+
 
 }
 
