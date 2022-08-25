@@ -88,9 +88,9 @@ function reservar(){
     }
 }
 function cancelar(){
+    document.getElementById("imagen3").src="";
     document.getElementById("texto1").innerHTML="";
     document.getElementById("texto2").innerHTML="";
     document.getElementById("texto3").innerHTML="";
     document.getElementById("texto4").innerHTML="";
-    document.getElementById("imagen3").src="";
 }
