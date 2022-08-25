@@ -38,7 +38,7 @@ li a:hover:not(.active) {
 }
 
 h1,
-h2 {
+h2,h3 {
     text-align: center;
 }
 
@@ -84,6 +84,7 @@ footer {
     border: 1px solid rgba(30, 116, 95, 0.966);
     border-radius:22px;
 }
+
 img{
     width: 100%;
 }
@@ -131,6 +132,19 @@ button{
     background-color: #aaa;
     width: 100%;
     padding: 20px;
+  }
+
+  .ColumnbaDerecha {   
+    float: right;
+    width: 75%;
+  }
+  
+  /* Right column */
+.ColumnaIzquierda {
+    float: left;
+    width: 25%;
+    background-color: #f1f1f1;
+    padding-right: 20px;
   }
   
   /* Add a card effect for articles */
@@ -193,3 +207,6 @@ body {
 .button-1:focus {
   background-color:#104632dc;
 }
+
+
+  
