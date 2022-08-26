@@ -1,0 +1,77 @@
+
+html, body, #hero, #overlay {
+    height: 100%;
+    width: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #hero { background: url(https://s3.amazonaws.com/uploads.hipchat.com/21309/369069/P3rXUVfLuQGvv7N/bw.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+      }
+  
+  
+  #overlay { 
+    -o-animation: colorcycle 20s infinite;
+    -moz-animation: colorcycle20s infinite;
+    -webkit-animation: colorcycle 20s infinite;
+    animation: colorcycle 20s infinite; 
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    -moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
+  }
+  
+  
+  @-o-keyframes colorcycle {
+    0%   {background: #a24de3;}
+    25%  {background: #00aeff;}
+    50%  {background: #f45a4a;}
+    75%  {background: #4fd1cd;}
+    100% {background: #a24de3;}
+  }
+  
+  @-moz-keyframes colorcycle {
+    0%   {background: #a24de3;}
+    25%  {background: #00aeff;}
+    50%  {background: #f45a4a;}
+    75%  {background: #4fd1cd;}
+    100% {background: #a24de3;}
+  }
+  
+  @-webkit-keyframes colorcycle {
+    0%   {background: #a24de3;}
+    25%  {background: #00aeff;}
+    50%  {background: #f45a4a;}
+    75%  {background: #4fd1cd;}
+    100% {background: #a24de3;}
+  }
+  
+  @keyframes colorcycle {
+    0%   {background: #a24de3;}
+    25%  {background: #00aeff;}
+    50%  {background: #f45a4a;}
+    75%  {background: #4fd1cd;}
+    100% {background: #a24de3;}
+  }
+
+  .hijo {
+    width: 50px;
+    height: 50px;
+    
+    /* centrar vertical y horizontalmente */
+    position: absolute;
+    top: 35%;
+    left: 7%;
+    margin: -25px 0 0 -25px; /* aplicar a top y al margen izquierdo un valor negativo para completar el centrado del elemento hijo */
+    font-size: 200px;
+  }
+
+  
+ 

@@ -13,18 +13,26 @@
 </head>
 
 <body>
+
+
+
+  
   <header>
     <h1 id="principal">VIAJA SEGURO</h1>
   </header>
   <main>
     <div id="container">
-      <ul>
-        <li><a class="active" href="index.html">Inicio</a></li>
-        <li><a href="AcercaNosotros.html">Acerca de Nosotros</a></li>
-        <li><a href="Contactos.html">Contacto</a></li>
-        <li><a href="Servicios.html">Servicios</a></li>
-        <li><a href="Viajes.html">Viajes</a></li>
-      </ul>
+      
+
+      <nav>
+        <a href="index.html">Inicio</a>
+	<a href="AcercaNosotros.html">Acerca de Nosotros</a>
+	<a href="Contactos.html">Contacto</a>
+	<a href="Servicios.html">Servicio</a>
+	<a href="Viajes.html">Viajes</a>
+	<div class="animation start-home"></div>
+
+      </nav>
     </div>
 
     <div class="row">
@@ -33,25 +41,34 @@
           <h2>A CUALQUIER LUGAR DONDE DESEES IR</h2>
           <p id="centro">---------------&#11088---------------</p>
 
-          <img src="Imagenes/disponibilidad.jpg" alt="" style="height:300px;" >
+          <div class="box">
+          <img src="Imagenes/disponibilidad.jpg" alt="" style="height:300px; margin-left: 150px;">
 
-          <p >No solo lo llevaremos a visitar la ciudad de dia y de noche, tienda,
-            conferencias, aeropuertos, entre otros. Siempre lo llevaremos a
-            cualquier luhar que quiera ir</p>
+       
+        </div>
+        
+        <p class="pinicio" >No solo lo llevaremos a visitar la ciudad de dia y de noche, 
+          tienda, conferencias, aeropuertos, entre otros. Siempre lo llevaremos a
+          cualquier luhar que quiera ir
+        </p>
         </div>
         
         <div class="card">
           <h2>ESTAMOS A SU DISPONIBILIDAD</h2>
           <p id="centro">---------------&#11088---------------</p>
-
-          <img src="Imagenes/flota.png" alt="" style="height:250px;">
-
-          <p >Nuestro servicio es de 24 horas, para cualquier duda o consulta,
-            puede llamar al telefono o escribirnos a nuestro correo.</p>
+          <div class="box">
+          <img src="Imagenes/flota.png" alt="" style="height:300px; margin-left: 150px;">
+          </div>
+          
         </div>
+        <p class="pinicio" >Nuestro servicio es de 24 horas, para cualquier duda o consulta,
+          puede llamar al telefono o escribirnos a nuestro correo.</p>
       </div>
 
       <div class="rightcolumn">
+
+        
+
         <div class="card">
 
           <h2 class="derecha">NUESTRA FLOTA</h2>
@@ -68,11 +85,31 @@
           <img src="Imagenes/imagen1.jpg" alt="" style="height:75px;">
           <img src="Imagenes/foto2.jpg" alt="" style="height:75px;">
           <img src="Imagenes/foto3.jpg" alt="" style="height:75px;">
+          
 
         </div>
         <div class="card">
-          <h3>LLAMENOS AHORA </h3>
-          <p>0969831219</p>
+    
+
+
+          <section id="contact">
+            <div class="sectionheader">	<h1>CONTACTO</h1></div>
+            <article>
+            <p style="text-align:center; font-size: 15px;">POR FAVOR CONTACTANOS SI TIENES ALGUNA DUDA</p>
+              
+                <label for="checkcontact" class="contactbutton"><div class="mail"></div></label><input id="checkcontact" type="checkbox">
+            
+                <form action="" class="contactform">
+                  <p class="input_wrapper"><input type="text" name="contact_nom" value=""  id ="contact_nom"><label for="contact_nom">Nombre</label></p>
+                  <p class="input_wrapper"><input type="text" name="contact_email" value=""  id ="contact_email"><label for="contact_email">Email</label></p>
+                  <p class="input_wrapper"><input type="text" name="contact_sujet" value=""  id ="contact_sujet"><label for="contact_sujet">Asunto</label></p>
+                  <p class="textarea_wrapper"><textarea name="contact_message" id="contact_message"></textarea></p>
+                  <p class="submit_wrapper"><input type="submit" value="Enviar"></p>			
+                </form>
+            </article>
+          </section>
+
+
         </div>
       </div>
     </div>
